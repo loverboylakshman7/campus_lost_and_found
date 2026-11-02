@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101b35">
+  <title>Campus Lost & Found</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#" data-page="home"><span class="brand-mark">⌕</span><span>campus<span class="brand-light">find</span></span></a>
+  <nav id="mainNav">
+    <a href="#" data-page="home" class="nav-link active">Home</a>
+    <a href="#" data-page="browse" class="nav-link">Browse items</a>
+    <a href="#" data-page="report" class="nav-link">Report an item</a>
+    <a href="#" data-page="myreports" class="nav-link">My reports</a>
+  </nav>
+  <div class="top-actions"><button class="theme-btn" id="themeToggle" aria-label="Toggle theme">◐</button><button class="btn btn-primary btn-small" data-page="report">＋ Report item</button><button class="menu-btn" id="menuToggle">☰</button></div>
+</header>
+<main id="app"></main>
+<footer><div class="footer-brand">campus<span>find</span></div><p>A little help can bring something important back.</p><small>Campus Lost & Found · Student project demo · Sample listings are illustrative</small></footer>
+<div id="toast" class="toast" role="status"></div>
+<script src="app.js"></script>
+</body></html>
